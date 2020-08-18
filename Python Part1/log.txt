@@ -1,0 +1,23 @@
+DEBUG:root:My message is debug
+WARNING:root:My message is warnning
+ERROR:root:My message is error
+CRITICAL:root:My message is Critical
+INFO:root:A new request came
+INFO:root:Reguest Processing Completed in Text File
+INFO:root:A new request came
+WARNING:root:My message is warnning
+CRITICAL:root:My message is Critical
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "/Users/amjad/Desktop/Python Programming/loogingConcept.py", line 7, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+INFO:root:Reguest Processing Completed in Text File
+INFO:root:A new request came
+ERROR:root:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "/Users/amjad/Desktop/Python Programming/loogingConcept.py", line 6, in <module>
+    y=int(input("Enter Number2 :: "))
+ValueError: invalid literal for int() with base 10: 'ten'
+ERROR:root:My message is error
+INFO:root:Reguest Processing Completed in Text File
