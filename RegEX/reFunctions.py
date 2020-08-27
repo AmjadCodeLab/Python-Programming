@@ -43,3 +43,15 @@ print("############### FindAll Function ###############")
 
 l=re.findall('[0-9]','a7b9k6z')
 print(l)
+
+print("############### sub Function ###############")
+
+s=re.sub('\d','*','AB1W4H68K84565476WOH346346WIH342546ONOK1353545DMD')
+print(s)
+
+
+print("############### subn Function ###############")
+
+s=re.subn('\d','*','AB1W4H68K84565476WOH346346WIH342546ONOK1353545DMD')
+print('The Resulted String',s[0])
+print('The Number of Repleacement',s[1])
